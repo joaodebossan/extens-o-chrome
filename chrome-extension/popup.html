@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { min-width: 250px; font-family: Arial, sans-serif; }
+    button { margin-top: 5px; }
+  </style>
+</head>
+<body>
+  <h3>GPT WhatsApp Assistant</h3>
+  <label><input type="radio" name="mode" value="auto" checked> Automático</label><br>
+  <label><input type="radio" name="mode" value="manual"> Manual</label>
+  <textarea id="instruction" placeholder="Instruções" style="width:100%; display:none"></textarea>
+  <button id="voice-btn" style="display:none">Falar instrução</button>
+  <button id="suggest-btn">Sugerir resposta</button>
+  <button id="toggle-btn">Desativar</button>
+  <script src="popup.js"></script>
+</body>
+</html>
